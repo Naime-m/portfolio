@@ -1,6 +1,7 @@
 # Portfolio React avec Tailwind CSS
 
 Ce projet est un portfolio personnel développé avec React et stylisé à l'aide de Tailwind CSS.
+Accessible ici : https://naime-m.github.io/portfolio/
 
 ## Fonctionnalités
 
@@ -12,3 +13,5 @@ Ce projet est un portfolio personnel développé avec React et stylisé à l'aid
 
 - React.js pour la structure de l'application
 - Tailwind CSS pour la mise en page et la stylisation
+
+
