@@ -1,8 +1,9 @@
 import React from "react"
+import Contact from "./Contact";
 
 export default function Projects() {
     return (
-        <div className="flex flex-col items-center justify-center mt-40" id="projects">
+        <div className="flex flex-col items-center justify-center mt-40 m-30" id="projects">
             <ul className="flex flex-col gap-4 items-center justify-center mb-40">
                 <li className="w-1/2 overflow-auto bg-blue-200 rounded-lg flex flex-col items-center justify-center mb-4 p-4 text-black transition duration-600 transform hover:scale-110"><a className="font-bold mb-2 hover:text-blue-500" href="https://github.com/Naime-m/Api-django">API - Django</a><p className="text-sm h-16 px-2"> Création d'une API avec Django Rest pour gérer des produits, mettre en place un système d'authentification et permettre la gestion des utilisateurs avec différentes autorisations</p></li>
                 <li className="w-1/2 overflow-auto bg-yellow-200 rounded-lg flex flex-col items-center justify-center mb-4 p-4 text-black transition duration-600 transform hover:scale-110"><a className="font-bold mb-2 hover:text-blue-500" href="https://github.com/Naime-m/docker-django">Docker - API Django</a><p className="text-sm h-16 px-2">Conteneurisation d'une API réalisée avec Django Rest Framework et une base de données en utilisant Docker</p></li>
@@ -34,6 +35,7 @@ export default function Projects() {
                 <li className="w-1/2 overflow-auto bg-yellow-200 rounded-lg flex flex-col items-center justify-center m-4 p-4 transition duration-600 transform hover:scale-110"><a className="font-bold mb-2 hover:text-blue-500" href="https://github.com/Naime-m/ExpressFood">ExpressFood</a><p className="text-sm h-16 px-2">Réaliser la base de données et les diagrammes UML d'une application de livraison de repas
                 </p></li>
             </ul>
+            <Contact />
         </div>
     );
 };

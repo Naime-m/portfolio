@@ -12,7 +12,7 @@ export default function App() {
       <Home />
       <Projects />
       <Contact />
-      <a href="#" className="fixed bottom-5 right-5 bg-blue-500 text-white text-sm px-4 py-2 rounded shadow-md">
+      <a href="#" className="fixed bottom-5 right-5 bg-blue-500 text-white text-sm p-2 rounded shadow-md">
         <FontAwesomeIcon icon={faArrowUp} />
       </a>
     </div>
